@@ -1,0 +1,9 @@
+##src1.txt
+Je suis une phrase à copié dans dst text.
+
+##src2.txt
+La deuxieme phrase
+
+##src3.txt
+Phrase n°3
+

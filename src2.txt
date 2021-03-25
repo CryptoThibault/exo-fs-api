@@ -1,0 +1,1 @@
+Je suis la deuiéme phrase à copié dans dst.txt.

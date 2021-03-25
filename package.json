@@ -1,0 +1,11 @@
+{
+  "name": "exo-fs-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CryptoThibault/exo-fs-api.git",
+  "author": "CryptoThibault <thibault.chalaoux@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
