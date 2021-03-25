@@ -16,10 +16,7 @@ const nbcara = text.split('').length
 const nbword = text.split(' ').length
 const nblign = text.split('\n').length
 
-function nbItem(nb) {
-  return `${nb} ${process.argv[indexFile]}`
-}
-if (process.argv[2] === '-l') { console.log(nbItem(nblign)) }
-else if (process.argv[2] === '-w') { console.log(nbItem(nbword)) }
-else if (process.argv[2] === '-c') { console.log(nbItem(nbcara)) }
+if (process.argv[2] === '-l') { console.log(`${nblign} ${process.argv[indexFile]}`) }
+else if (process.argv[2] === '-w') { console.log(`${nbword} ${process.argv[indexFile]}`) }
+else if (process.argv[2] === '-c') { console.log(`${nbcara} ${process.argv[indexFile]}`) }
 else { console.log(`${nblign}    ${nbword}   ${nbcara} ${process.argv[indexFile]}`) }
