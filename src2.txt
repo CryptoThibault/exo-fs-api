@@ -1,1 +1,1 @@
-Je suis la deuiéme phrase à copié dans dst.txt.
+Je suis la deuxiéme phrase à copié dans dst.txt.
