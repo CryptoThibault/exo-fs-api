@@ -9,6 +9,10 @@ if (process.argv.length != 3 && process.argv.length != 5) {
 if (process.argv[2] === '-n') {
   nblign = process.argv[3]
   indexFile += 2
+  if (Number(process.argv[3])) {
+    console.log('entrer le nombre de lignes que vous voulez afficher')
+    process.exit(1)
+  }
 }
 if (!existsSync(process.argv[indexFile])) {
   console.log('This file don\'t exist')
